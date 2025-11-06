@@ -3,7 +3,7 @@ import { Desserts } from "./components/desserts"
 import { YourCart } from "./components/yourCart"
 import { OrderConfirmationModal } from "./components/ConfirmetionScreen"
 import type { Product, CartItem } from "./types"
-import productData from "../data.json"
+import productData from "./data.json"
 
 function App() {
   const [products] = useState<Product[]>(productData)
