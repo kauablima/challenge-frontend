@@ -1,7 +1,7 @@
 import type { Product } from "../../types"
 import cartIconUrl from '../../assets/images/icon-add-to-cart.svg'
 import addIconUrl from '../../assets/images/icon-increment-quantity.svg'
-import removeIconUrl from '../../assets/images/icon-remove-item.svg'
+import removeIconUrl from '../../assets/images/icon-decrement-quantity.svg'
 
 interface CardProps {
   product: Product

@@ -12,7 +12,7 @@ export const OrderConfirmationModal = ({ cartItems, onStartNewOrder }: OrderConf
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center p-4 ">
       
-      <div className="bg-white fixed bottom-0 p-6 rounded-t-lg pt-30
+      <div className="bg-white fixed bottom-0 p-6 rounded-t-lg pt-20
         lg:absolute lg:rounded-lg lg:bottom-auto
         md:absolute md:bottom-auto md:mt-screen md:mt-0 md:max-w-lg md:p-8
         md:rounded-lg max-h-lg w-full shadow-lg  
@@ -26,7 +26,7 @@ export const OrderConfirmationModal = ({ cartItems, onStartNewOrder }: OrderConf
           We hope you enjoy your food!
         </p>
 
-        <div className=" md:max-h-60  max-h-60  overflow-y-auto bg-rose-50 rounded-lg">
+        <div className=" md:max-h-60  max-h-70  overflow-y-auto bg-rose-50 rounded-lg">
           <ul className="space-y-4 p-4 sm:p-6">
             {cartItems.map((item, index) => (
               <li 
