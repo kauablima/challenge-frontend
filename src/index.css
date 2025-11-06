@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  /* colors */
+  --color-backgroud: rgb(252, 248, 245);
+  --color-default: rgb(200, 59, 14);
+} 
+
+@font-face {
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('./src/assets/fonts/RedHatText-VariableFont_wght.ttf') format('truetype-variations');
+}
+
+@font-face {
+  font-family: 'Red Hat Text';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('./src/assets/fonts/RedHatText-Italic-VariableFont_wght.ttf') format('truetype-variations');
+}
